@@ -1,0 +1,6 @@
+framework module CocoapodsDemo {
+  umbrella header "CocoapodsDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
