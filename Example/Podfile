@@ -1,7 +1,15 @@
 use_frameworks!
 
 target 'CocoapodsDemo_Example' do
-  pod 'CocoapodsDemo', :path => '../'
+  pod 'CocoapodsDemo2', :path => '../'
+  #pod 'CocoapodsDemo2'
+  pod 'CTAssetsPickerController',  '~> 3.3.0'
+  pod 'SobotKit'
+  pod 'Lightbox'
+  pod 'Localize-Swift'
+  pod 'PickerView'
+  pod 'LocalizationKit'
+  pod 'SKPhotoBrowser'
 
   target 'CocoapodsDemo_Tests' do
     inherit! :search_paths

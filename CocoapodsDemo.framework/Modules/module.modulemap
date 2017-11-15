@@ -1,0 +1,11 @@
+framework module CocoapodsDemo {
+  umbrella header "CocoapodsDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module CocoapodsDemo.Swift {
+    header "CocoapodsDemo-Swift.h"
+    requires objc
+}

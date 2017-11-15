@@ -2,7 +2,6 @@
 
 import Quick
 import Nimble
-import CocoapodsDemo
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {

@@ -89,10 +89,28 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/CocoapodsDemo/CocoapodsDemo.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/CTAssetsPickerController/CTAssetsPickerController.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/CocoapodsDemo2/CocoapodsDemo2.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Hue/Hue.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Lightbox/Lightbox.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/LocalizationKit/LocalizationKit.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Localize-Swift/Localize_Swift.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/PickerView/PickerView.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/PureLayout/PureLayout.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SKPhotoBrowser/SKPhotoBrowser.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Socket.IO-Client-Swift/SocketIO.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/CocoapodsDemo/CocoapodsDemo.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/CTAssetsPickerController/CTAssetsPickerController.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/CocoapodsDemo2/CocoapodsDemo2.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Hue/Hue.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Lightbox/Lightbox.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/LocalizationKit/LocalizationKit.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Localize-Swift/Localize_Swift.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/PickerView/PickerView.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/PureLayout/PureLayout.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SKPhotoBrowser/SKPhotoBrowser.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Socket.IO-Client-Swift/SocketIO.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

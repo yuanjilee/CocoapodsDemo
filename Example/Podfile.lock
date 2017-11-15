@@ -1,36 +1,66 @@
 PODS:
-  - CocoapodsDemo (0.1.0)
+  - CocoapodsDemo2 (0.1.0)
+  - CTAssetsPickerController (3.3.1):
+    - PureLayout (~> 3.0.0)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - Hue (2.0.1)
+  - Lightbox (1.1.0):
+    - Hue (~> 2.0)
+  - LocalizationKit (2.0.10):
+    - Socket.IO-Client-Swift (~> 8.3.3)
+  - Localize-Swift (2.0.0)
   - Nimble (7.0.2)
   - Nimble-Snapshots (6.3.0):
     - Nimble-Snapshots/Core (= 6.3.0)
   - Nimble-Snapshots/Core (6.3.0):
     - FBSnapshotTestCase (~> 2.0)
     - Nimble (~> 7.0)
+  - PickerView (0.3.3)
+  - PureLayout (3.0.2)
   - Quick (1.2.0)
+  - SKPhotoBrowser (4.1.1)
+  - SobotKit (2.3.3)
+  - Socket.IO-Client-Swift (8.3.3)
 
 DEPENDENCIES:
-  - CocoapodsDemo (from `../`)
+  - CocoapodsDemo2 (from `../`)
+  - CTAssetsPickerController (~> 3.3.0)
   - FBSnapshotTestCase (~> 2.1.4)
+  - Lightbox
+  - LocalizationKit
+  - Localize-Swift
   - Nimble (~> 7.0.2)
   - Nimble-Snapshots (~> 6.3.0)
+  - PickerView
   - Quick (~> 1.2.0)
+  - SKPhotoBrowser
+  - SobotKit
 
 EXTERNAL SOURCES:
-  CocoapodsDemo:
+  CocoapodsDemo2:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CocoapodsDemo: 553fcf414fe9245b91d6b9c46616ce7015bd25bd
+  CocoapodsDemo2: 259affd3def0c99a699e58cc6c0388b8e75753cb
+  CTAssetsPickerController: b1d1d50ab87cf6b8b13531de5f4530482e7e53ed
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Hue: 354caec055fdc9d38b5ef33ca2e7224721843baf
+  Lightbox: 1b53bd364077474fcb217a22266c95a72fc00faa
+  LocalizationKit: 2846c7832c0e9ec3f8c7b66259e13e1ad874eceb
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
   Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
+  PickerView: a6703d2f7cb1fafc8a3aef4af255a5acd320ddff
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  SKPhotoBrowser: aa02de50f56d80fac23f543e40847af6b360e4b3
+  SobotKit: 09bdd69653356c3cbe687e1455a65424de3b6287
+  Socket.IO-Client-Swift: a2faffdbde89c63aebc5d631041530c1068b02b8
 
-PODFILE CHECKSUM: af0c799d741646a53b7ab62cb8bcfe8b3a793d9f
+PODFILE CHECKSUM: 197f6330f6d28073df3079cf5cf8c85323c2cb4a
 
 COCOAPODS: 1.2.1
